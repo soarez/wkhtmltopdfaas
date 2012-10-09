@@ -1,10 +1,16 @@
 {
   "author": "Soarez <igorsoarez@gmail.com> (http://soarez.com/)",
   "name": "wkhtmltopdfaas",
+  "keywords": [
+    "wkhtmltopdf",
+    "html",
+    "pdf"
+  ],
   "description": "wkhtmltopdf as a service",
   "version": "1.0.0",
   "repository": {
-    "url": ""
+    "url": "https://github.com/Soarez/wkhtmltopdfaas",
+    "type": "git"
   },
   "dependencies": {
     "restify": "~1.4.4"
@@ -12,6 +18,10 @@
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
-  }
+    "node": ">=0.6"
+  },
+  "script": {
+    "start": "node server"
+  },
+  "licence": "MIT"
 }
