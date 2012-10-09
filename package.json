@@ -1,0 +1,17 @@
+{
+  "author": "Soarez <igorsoarez@gmail.com> (http://soarez.com/)",
+  "name": "wkhtmltopdfaas",
+  "description": "wkhtmltopdf as a service",
+  "version": "1.0.0",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {
+    "restify": "~1.4.4"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
